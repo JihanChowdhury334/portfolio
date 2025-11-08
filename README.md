@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jihan Chowdhury - Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 15, showcasing my projects, experience, and skills as a Computer Engineering student and Software Developer.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Tech Stack**: Built with Next.js 15, TypeScript, and TailwindCSS v4
+- **Responsive Design**: Fully responsive across all devices
+- **Dark Mode**: Theme toggle with system preference detection
+- **Project Showcase**: 8+ projects with detailed descriptions and GitHub links
+- **Working Contact Form**: Integrated with Resend for email functionality
+- **Resume Download**: Direct download of my latest resume
+- **Smooth Animations**: Powered by Framer Motion
+- **SEO Optimized**: Static generation for optimal performance
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: TailwindCSS v4
+- **UI Components**: shadcn/ui
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Email**: Resend
+- **Deployment**: Vercel
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/JihanChowdhury334/portfolio.git
+
+# Navigate to the project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Create production build
+npm run build
 
-## Learn More
+# Start production server
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📧 Contact Form Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To enable the contact form, you'll need to add your Resend API key as an environment variable:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Sign up at [Resend](https://resend.com)
+2. Get your API key
+3. Update the API key in `/app/api/send/route.ts`
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is open source and available under the [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📞 Contact
+
+- **Email**: jihanchowdhury334@gmail.com
+- **LinkedIn**: [jihan-chowdhury-aa6506292](https://www.linkedin.com/in/jihan-chowdhury-aa6506292/)
+- **GitHub**: [@JihanChowdhury334](https://github.com/JihanChowdhury334)
+
+---
+
+Built with ❤️ by Jihan Chowdhury
