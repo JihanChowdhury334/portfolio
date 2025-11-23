@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     company: 'Cox\'s Driving School & Accounting Firm',
     position: 'Freelance Software Developer',
     location: 'Toronto, ON',
-    startDate: 'Jul 2025',
+    startDate: 'May 2025',
     endDate: 'Aug 2025',
     description: 'Developed and deployed responsive business websites using modern web technologies.',
     achievements: [
