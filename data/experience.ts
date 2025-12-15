@@ -13,8 +13,8 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: '1',
-    company: 'Cox\'s Driving School & Accounting Firm',
-    position: 'Freelance Software Developer',
+    company: 'Freelance',
+    position: 'Software Developer',
     location: 'Toronto, ON',
     startDate: 'May 2025',
     endDate: 'Aug 2025',
