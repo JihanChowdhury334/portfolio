@@ -13,18 +13,28 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: '1',
-    company: 'Freelance',
-    position: 'Software Developer',
+    company: 'AS Tax, Accounting & Financial Services',
+    position: 'Software Engineering Intern',
     location: 'Toronto, ON',
     startDate: 'May 2025',
     endDate: 'Aug 2025',
-    description: 'Developed and deployed responsive business websites using modern web technologies.',
+    description:
+      'Built an internal web application to modernize client data management and replace spreadsheet-based workflows.',
     achievements: [
-      'Developed and deployed responsive business websites using React, Next.js, and Tailwind CSS',
-      'Integrated Google Maps, client sign-up flows, and contact forms to streamline onboarding',
-      'Implemented SEO optimizations and mobile-first design, increasing site traffic and client inquiries',
-      'Deployed via Azure/Netlify ensuring strong performance, reliability, and fast load times'
+      'Built an internal web application to centralize client records and replace spreadsheet-based tracking workflows',
+      'Designed and maintained PostgreSQL schemas for clients, documents, and role-based access control',
+      'Implemented secure authentication and session management using NextAuth',
+      'Reduced redundant database queries by approximately 70% by caching frequently accessed client data',
+      'Eliminated duplicate client records for new entries using email-based uniqueness constraints'
     ],
-    technologies: ['React', 'Next.js', 'TailwindCSS', 'Azure', 'Netlify', 'Google Maps API', 'SEO']
+    technologies: [
+      'Next.js',
+      'React',
+      'PostgreSQL',
+      'NextAuth',
+      'TypeScript',
+      'REST APIs'
+    ]
   }
 ];
+
