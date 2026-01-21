@@ -13,6 +13,33 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: '1',
+    company: 'League Insights AI',
+    position: 'Backend Engineer',
+    location: 'Toronto, ON',
+    startDate: 'Nov 2025',
+    endDate: 'Present',
+    description:
+      'Led backend development of a full-stack analytics platform that processes large-scale competitive gaming data and generates AI-driven performance insights.',
+    achievements: [
+      'Led technical execution of a full-stack analytics platform serving 200+ distinct users per month',
+      'Built an asynchronous Flask API in Python with PostgreSQL to aggregate and process 1,000+ match records per user',
+      'Designed SQL-backed data models and integrity checks to support large-scale analytics and timeline aggregation',
+      'Integrated AWS-hosted AI report generation and exposed backend endpoints consumed by a Next.js dashboard',
+      'Directed backend architecture and task breakdowns across a 3-person development team'
+    ],
+    technologies: [
+      'Python',
+      'Flask',
+      'PostgreSQL',
+      'SQLAlchemy',
+      'AWS Bedrock',
+      'Next.js',
+      'REST APIs',
+      'Async Processing'
+    ]
+  },
+  {
+    id: '2',
     company: 'AS Tax, Accounting & Financial Services',
     position: 'Software Engineering Intern',
     location: 'Toronto, ON',
@@ -37,4 +64,3 @@ export const experiences: Experience[] = [
     ]
   }
 ];
-
