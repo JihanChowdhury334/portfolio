@@ -41,7 +41,7 @@ export const experiences: Experience[] = [
   {
     id: '2',
     company: 'AS Tax, Accounting & Financial Services',
-    position: 'Software Engineering Intern',
+    position: 'Software Engineering Intern (Contract)',
     location: 'Toronto, ON',
     startDate: 'May 2025',
     endDate: 'Aug 2025',
