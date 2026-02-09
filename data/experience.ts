@@ -15,7 +15,7 @@ export const experiences: Experience[] = [
     id: '1',
     company: 'Hitachi Rail GTS Canada Inc.',
     position: 'AI Intern – Procurement',
-    location: 'Scarborough, ON (Hybrid)',
+    location: 'Toronto, ON (Hybrid)',
     startDate: 'Feb 2026',
     endDate: 'Dec 2026',
     description:
@@ -45,11 +45,10 @@ export const experiences: Experience[] = [
     description:
       'Led backend development of a full-stack analytics platform that processes large-scale competitive gaming data and generates AI-driven performance insights.',
     achievements: [
-      'Led technical execution of a full-stack analytics platform serving 200+ distinct users per month',
-      'Built an asynchronous Flask API in Python with PostgreSQL to aggregate and process 1,000+ match records per user',
-      'Designed SQL-backed data models and integrity checks to support large-scale analytics and timeline aggregation',
-      'Integrated AWS-hosted AI report generation and exposed backend endpoints consumed by a Next.js dashboard',
-      'Directed backend architecture and task breakdowns across a 3-person development team'
+      'Led technical execution of a full-stack analytics platform, owning an asynchronous Flask API (Python) with PostgreSQL serving 200+ distinct players in a month and supporting 1,000+ match records per player',
+      'Implemented SQL-backed data models and integrity checks to support large-scale aggregation',
+      'Integrated AWS-hosted AI report generation and exposed endpoints consumed by a Next.js dashboard',
+      'Directed technical execution across a 3-person team by defining backend interfaces and task breakdowns'
     ],
     technologies: [
       'Python',
@@ -70,13 +69,13 @@ export const experiences: Experience[] = [
     startDate: 'May 2025',
     endDate: 'Aug 2025',
     description:
-      'Built an internal web application to modernize client data management and replace spreadsheet-based workflows.',
+      'Built an internal web application to centralize client data management and replace spreadsheet-based tracking workflows.',
     achievements: [
       'Built an internal web application to centralize client records and replace spreadsheet-based tracking workflows',
-      'Designed and maintained PostgreSQL schemas for clients, documents, and role-based access control',
-      'Implemented authentication and authorization using NextAuth with secure session management',
-      'Reduced redundant database queries by approximately 70% by caching frequently accessed client data',
-      'Eliminated duplicate client records for new entries using email-based uniqueness constraints'
+      'Designed and maintained PostgreSQL schemas for clients, associated documents, and role-based access',
+      'Implemented secure internal authentication and session management using NextAuth',
+      'Reduced redundant database queries by 70% by caching frequently accessed client data',
+      'Reduced duplicate client records by 100% for new entries using email-based uniqueness constraints'
     ],
     technologies: [
       'Next.js',
