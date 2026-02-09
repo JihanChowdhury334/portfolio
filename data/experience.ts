@@ -13,6 +13,30 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: '1',
+    company: 'Hitachi Rail GTS Canada Inc.',
+    position: 'AI Intern – Procurement',
+    location: 'Scarborough, ON (Hybrid)',
+    startDate: 'Feb 2026',
+    endDate: 'Dec 2026',
+    description:
+      'Working with the Procurement and Supply Chain team to support the development, customization, and deployment of AI-driven tools and automation solutions that enhance procurement efficiency, data accuracy, and decision-making.',
+    achievements: [
+      'Collaborating with Procurement, Supply Chain, and IT teams to identify automation opportunities within procurement workflows',
+      'Supporting the design and deployment of AI-driven tools such as document analyzers, chatbots, and automation solutions',
+      'Assisting with integration of AI solutions into internal procurement platforms and enterprise systems',
+      'Contributing to testing, validation, and performance monitoring of deployed automation tools',
+      'Documenting processes and supporting internal users with guides and training materials'
+    ],
+    technologies: [
+      'Python',
+      'Automation',
+      'SQL',
+      'APIs',
+      'AI Tools'
+    ]
+  },
+  {
+    id: '2',
     company: 'League Insights AI',
     position: 'Backend Engineer',
     location: 'Toronto, ON',
@@ -39,9 +63,9 @@ export const experiences: Experience[] = [
     ]
   },
   {
-    id: '2',
+    id: '3',
     company: 'AS Tax, Accounting & Financial Services',
-    position: 'Software Engineering Intern (Contract)',
+    position: 'Software Engineer (Contract)',
     location: 'Toronto, ON',
     startDate: 'May 2025',
     endDate: 'Aug 2025',
@@ -50,7 +74,7 @@ export const experiences: Experience[] = [
     achievements: [
       'Built an internal web application to centralize client records and replace spreadsheet-based tracking workflows',
       'Designed and maintained PostgreSQL schemas for clients, documents, and role-based access control',
-      'Implemented secure authentication and session management using NextAuth',
+      'Implemented authentication and authorization using NextAuth with secure session management',
       'Reduced redundant database queries by approximately 70% by caching frequently accessed client data',
       'Eliminated duplicate client records for new entries using email-based uniqueness constraints'
     ],
