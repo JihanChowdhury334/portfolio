@@ -41,7 +41,7 @@ export const experiences: Experience[] = [
     position: 'Backend Engineer',
     location: 'Toronto, ON',
     startDate: 'Nov 2025',
-    endDate: 'Present',
+    endDate: 'Jan 2026',
     description:
       'Led backend development of a full-stack analytics platform that processes large-scale competitive gaming data and generates AI-driven performance insights.',
     achievements: [
